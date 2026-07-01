@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カフェ Du Meal | 群馬県高崎市のおやつカフェ</title>
+  <meta name="description" content="群馬県高崎市にある「カフェ Du Meal」。「集う」をコンセプトにしたおやつカフェ。スイーツ・かき氷・クレープ・焼き菓子をお楽しみいただけます。営業時間13:00〜18:00。月・火定休。">
+  <meta name="keywords" content="カフェ,高崎市,スイーツ,かき氷,クレープ,焼き菓子,クッキー缶,Du Meal,おやつカフェ">
+  <meta property="og:title" content="カフェ Du Meal | 群馬県高崎市のおやつカフェ">
+  <meta property="og:description" content="「集う」をコンセプトにしたおやつカフェ。スイーツ・かき氷・クレープ・焼き菓子をお楽しみいただけます。">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══════════════ HEADER ══════════════ -->
+  <header class="header" id="header">
+    <div class="header-inner">
+
+      <a href="#top" class="logo" aria-label="カフェ Du Meal トップへ">
+        <span class="logo-small">cafe</span>
+        <span class="logo-main">Du Meal</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="gnav" aria-label="メインナビゲーション">
+        <ul class="gnav-list">
+          <li><a href="#about" class="gnav-link">About</a></li>
+          <li><a href="#menu"  class="gnav-link">Menu</a></li>
+          <li><a href="#info"  class="gnav-link">Information</a></li>
+          <li>
+            <a href="https://www.instagram.com/dumeal209/"
+               target="_blank" rel="noopener noreferrer"
+               class="gnav-link gnav-insta">Instagram</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Button -->
+      <button class="burger" id="burgerBtn"
+              aria-label="メニューを開く"
+              aria-expanded="false"
+              aria-controls="mobileMenu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ══════════════ MOBILE MENU ══════════════ -->
+  <div class="mob-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mob-menu-inner">
+      <nav aria-label="モバイルナビゲーション">
+        <ul class="mob-nav-list">
+          <li><a href="#about" class="mob-nav-link" data-mob-close>About</a></li>
+          <li><a href="#menu"  class="mob-nav-link" data-mob-close>Menu</a></li>
+          <li><a href="#info"  class="mob-nav-link" data-mob-close>Information</a></li>
+          <li>
+            <a href="https://www.instagram.com/dumeal209/"
+               target="_blank" rel="noopener noreferrer"
+               class="mob-nav-link" data-mob-close>Instagram</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ══════════════ HERO ══════════════ -->
+    <section id="top" class="hero" aria-label="ヒーロー">
+
+      <div class="hero-bg" aria-hidden="true">
+        <img src="img/外観イメージ.webp"
+             alt="カフェ Du Meal 外観"
+             class="hero-img"
+             fetchpriority="high">
+        <div class="hero-veil"></div>
+      </div>
+
+      <div class="hero-body">
+        <p class="hero-eyebrow">— oyatsu cafe —</p>
+        <h1 class="hero-name">cafe Du Meal</h1>
+        <p class="hero-tagline">「集う」をコンセプトに</p>
+        <div class="hero-hr"></div>
+        <p class="hero-location">群馬県 高崎市</p>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="hero-scroll-line"></div>
+        <span class="hero-scroll-text">scroll</span>
+      </div>
+
+    </section>
+
+    <!-- ══════════════ ABOUT ══════════════ -->
+    <section id="about" class="sec about-sec" aria-labelledby="about-heading">
+      <div class="wrap">
+
+        <div class="sec-hd">
+          <p class="sec-en">about</p>
+          <h2 class="sec-ttl" id="about-heading">About Us</h2>
+          <div class="sec-rule"></div>
+        </div>
+
+        <div class="about-body fade-in">
+          <p>群馬県高崎市にある「カフェ Du Meal」です。「集う」をコンセプトにしたおやつカフェとして、落ち着いた空間でゆっくり過ごせる隠れ家的な雰囲気が特徴です。ママ友同士のカフェ利用やひとり時間など、さまざまなシーンでご利用いただいています。</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════ MENU ══════════════ -->
+    <section id="menu" class="sec menu-sec" aria-labelledby="menu-heading">
+      <div class="wrap">
+
+        <div class="sec-hd">
+          <p class="sec-en">menu</p>
+          <h2 class="sec-ttl" id="menu-heading">Menu</h2>
+          <div class="sec-rule"></div>
+        </div>
+
+        <!-- ── 1. クッキー缶（自動スライド） ── -->
+        <article class="mn-block fade-in" aria-labelledby="cookie-heading">
+          <div class="mn-hd">
+            <h3 class="mn-cat" id="cookie-heading">
+              クッキー缶 <span class="rsv-badge">要予約</span>
+            </h3>
+            <div class="mn-rule"></div>
+          </div>
+
+          <div class="sld-wrap">
+            <div class="sld-view">
+              <div class="sld-track" id="cookieTrack">
+                <!-- 15枚 — JavaScript で生成 -->
+              </div>
+            </div>
+            <div class="sld-ctrl">
+              <button class="sld-btn" id="cookiePrev" aria-label="前の画像">&#8592;</button>
+              <span class="sld-cnt" id="cookieCount" aria-live="polite">1 / --</span>
+              <button class="sld-btn" id="cookieNext" aria-label="次の画像">&#8594;</button>
+            </div>
+          </div>
+
+          <div class="mn-info">
+            <p class="mn-note">
+              当店では、素材にこだわった焼き菓子をご提供しており、クッキー缶が人気です。<br>
+              手土産やギフトにもご好評いただいています。
+            </p>
+            <p class="mn-price">クッキー 約50枚入り &nbsp; <strong>2,800円〜</strong></p>
+            <p class="mn-note">
+              ご予約はInstagramのDMまたは来店にて。<br>
+              ご注文は1週間前までにお願いします。
+            </p>
+            <a href="https://www.instagram.com/dumeal209/"
+               target="_blank" rel="noopener noreferrer"
+               class="mn-insta-btn" id="cookie-insta-link">Instagram でご予約</a>
+          </div>
+        </article>
+
+        <!-- ── 2. 生菓子（手動スライド） ── -->
+        <article class="mn-block fade-in" aria-labelledby="fresh-heading">
+          <div class="mn-hd">
+            <h3 class="mn-cat" id="fresh-heading">生菓子</h3>
+            <div class="mn-rule"></div>
+          </div>
+
+          <div class="sld-wrap">
+            <div class="sld-view">
+              <div class="sld-track" id="freshTrack">
+
+                <div class="sld-item">
+                  <img src="img/シフォンケーキ.webp"
+                       alt="シフォンケーキ" loading="lazy">
+                  <p class="sld-caption">シフォンケーキ</p>
+                </div>
+
+                <div class="sld-item">
+                  <img src="img/苺のパンナコッタ.webp"
+                       alt="苺のパンナコッタ" loading="lazy">
+                  <p class="sld-caption">苺のパンナコッタ</p>
+                </div>
+
+                <div class="sld-item">
+                  <div class="sld-placeholder">
+                    <span>Coming Soon</span>
+                  </div>
+                  <p class="sld-caption sld-caption-dim">シフォンのチーズクリームのせ</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="sld-ctrl">
+              <button class="sld-btn" id="freshPrev" aria-label="前の画像">&#8592;</button>
+              <span class="sld-cnt" id="freshCount" aria-live="polite">1 / 3</span>
+              <button class="sld-btn" id="freshNext" aria-label="次の画像">&#8594;</button>
+            </div>
+          </div>
+
+          <div class="mn-info">
+            <p class="mn-note">
+              当店では、素材にこだわった日替わりの生菓子やスイーツをご提供しています。
+            </p>
+            <p class="mn-note">
+              日替わりメニューとなります。<br>
+              詳しくは<a href="https://www.instagram.com/dumeal209/"
+                        target="_blank" rel="noopener noreferrer">Instagram</a>をご確認ください。
+            </p>
+          </div>
+        </article>
+
+        <!-- ── 3. クレープ（手動スライド） ── -->
+        <article class="mn-block fade-in" aria-labelledby="crepe-heading">
+          <div class="mn-hd">
+            <h3 class="mn-cat" id="crepe-heading">クレープ</h3>
+            <div class="mn-rule"></div>
+          </div>
+
+          <div class="sld-wrap">
+            <div class="sld-view">
+              <div class="sld-track" id="crepeTrack">
+
+                <div class="sld-item">
+                  <img src="img/クレープ1.webp" alt="クレープ" loading="lazy">
+                </div>
+                <div class="sld-item">
+                  <img src="img/クレープ2.webp" alt="クレープ" loading="lazy">
+                </div>
+                <div class="sld-item">
+                  <img src="img/クレープ3.webp" alt="クレープ" loading="lazy">
+                </div>
+                <div class="sld-item">
+                  <img src="img/クレープ4.webp" alt="クレープ" loading="lazy">
+                </div>
+
+              </div>
+            </div>
+            <div class="sld-ctrl">
+              <button class="sld-btn" id="crepePrev" aria-label="前の画像">&#8592;</button>
+              <span class="sld-cnt" id="crepeCount" aria-live="polite">1 / 4</span>
+              <button class="sld-btn" id="crepeNext" aria-label="次の画像">&#8594;</button>
+            </div>
+          </div>
+
+          <div class="mn-info">
+            <p class="mn-note">
+              大人も楽しめるクレープは甘さ控えめで、素材の味を活かしたスイーツとして人気です。
+            </p>
+            <p class="mn-note">
+              季節により内容が異なります。<br>
+              詳しくは<a href="https://www.instagram.com/dumeal209/"
+                        target="_blank" rel="noopener noreferrer">Instagram</a>をご確認ください。
+            </p>
+          </div>
+        </article>
+
+        <!-- ── 4. かき氷（手動スライド） ── -->
+        <article class="mn-block fade-in" aria-labelledby="kakigori-heading">
+          <div class="mn-hd">
+            <h3 class="mn-cat" id="kakigori-heading">かき氷</h3>
+            <div class="mn-rule"></div>
+          </div>
+
+          <div class="sld-wrap">
+            <div class="sld-view">
+              <div class="sld-track" id="kakigoriTrack">
+
+                <div class="sld-item">
+                  <img src="img/かき氷桃.webp" alt="かき氷 桃" loading="lazy">
+                  <p class="sld-caption">桃</p>
+                </div>
+                <div class="sld-item">
+                  <img src="img/かき氷　ティラミス.webp" alt="かき氷 ティラミス" loading="lazy">
+                  <p class="sld-caption">ティラミス</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="sld-ctrl">
+              <button class="sld-btn" id="kakigoriPrev" aria-label="前の画像">&#8592;</button>
+              <span class="sld-cnt" id="kakigoriCount" aria-live="polite">1 / 2</span>
+              <button class="sld-btn" id="kakigoriNext" aria-label="次の画像">&#8594;</button>
+            </div>
+          </div>
+
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ══════════════ INFORMATION ══════════════ -->
+    <section id="info" class="sec info-sec" aria-labelledby="info-heading">
+      <div class="wrap">
+
+        <div class="sec-hd">
+          <p class="sec-en sec-en-lt">information</p>
+          <h2 class="sec-ttl sec-ttl-lt" id="info-heading">Information</h2>
+          <div class="sec-rule sec-rule-lt"></div>
+        </div>
+
+        <div class="info-grid fade-in">
+
+          <!-- Left: Details -->
+          <div class="info-left">
+            <dl class="info-dl">
+              <div class="info-row">
+                <dt>営業時間</dt>
+                <dd>13:00 〜 18:00</dd>
+              </div>
+              <div class="info-row">
+                <dt>定休日</dt>
+                <dd>
+                  月曜日・火曜日
+                  <small>最新情報はInstagramをご確認ください</small>
+                </dd>
+              </div>
+              <div class="info-row">
+                <dt>住所</dt>
+                <dd>〒370-0033<br>群馬県高崎市中大類町 407-7</dd>
+              </div>
+              <div class="info-row">
+                <dt>駐車場</dt>
+                <dd>
+                  専用駐車場 7台完備
+                  <small>お車でのご来店も安心です</small>
+                </dd>
+              </div>
+            </dl>
+
+            <div class="info-actions">
+              <a href="https://www.google.com/maps/place/%E3%82%AB%E3%83%95%E3%82%A7+Du+Meal/data=!4m2!3m1!1s0x0:0x3892a47304bde327?sa=X&ved=1t:2428&ictx=111"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn-outline" id="map-link">Google Maps で見る</a>
+              <a href="https://www.instagram.com/dumeal209/"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn-solid" id="insta-info-link">@dumeal209</a>
+            </div>
+          </div>
+
+          <!-- Right: Map -->
+          <div class="info-right">
+            <div class="map-frame">
+              <iframe
+                src="https://maps.google.com/maps?q=%E3%82%AB%E3%83%95%E3%82%A7+Du+Meal&output=embed&hl=ja&z=16"
+                title="カフェ Du Meal の地図"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-logo fade-in">cafe Du Meal</p>
+      <div class="footer-sns">
+        <a href="https://www.instagram.com/dumeal209/"
+           target="_blank" rel="noopener noreferrer"
+           class="footer-sns-link">Instagram</a>
+      </div>
+      <address class="footer-addr">〒370-0033 群馬県高崎市中大類町 407-7</address>
+      <p class="footer-tel">TEL : 027-335-6129</p>
+      <p class="footer-copy">&copy; 2026 cafe Du Meal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Fixed Instagram Button -->
+  <a href="https://www.instagram.com/dumeal209/"
+     target="_blank" rel="noopener noreferrer"
+     class="insta-fixed"
+     aria-label="Instagram">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+    </svg>
+  </a>
+
+  <!-- ══════════════ SCRIPT ══════════════ -->
+  <script>
+  'use strict';
+
+  /* ────────────────────────────────────────
+     HAMBURGER / MOBILE MENU
+  ──────────────────────────────────────── */
+  const burgerBtn  = document.getElementById('burgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  function toggleMenu(open) {
+    burgerBtn.classList.toggle('is-open', open);
+    burgerBtn.setAttribute('aria-expanded', String(open));
+    mobileMenu.classList.toggle('is-visible', open);
+    mobileMenu.setAttribute('aria-hidden', String(!open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+
+  burgerBtn.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.contains('is-visible');
+    toggleMenu(!isOpen);
+  });
+
+  // Close on nav link click
+  document.querySelectorAll('[data-mob-close]').forEach(el => {
+    el.addEventListener('click', () => toggleMenu(false));
+  });
+
+  // Close on overlay click (outside nav)
+  mobileMenu.addEventListener('click', e => {
+    if (e.target === mobileMenu) toggleMenu(false);
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && mobileMenu.classList.contains('is-visible')) {
+      toggleMenu(false);
+    }
+  });
+
+  /* ────────────────────────────────────────
+     HEADER SCROLL STATE
+  ──────────────────────────────────────── */
+  const header = document.getElementById('header');
+
+  function onScroll() {
+    header.classList.toggle('is-scrolled', window.scrollY > 60);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ────────────────────────────────────────
+     SLIDER FACTORY
+     opts: { auto, interval, loop }
+  ──────────────────────────────────────── */
+  function makeSlider(trackId, prevId, nextId, countId, opts) {
+    const track = document.getElementById(trackId);
+    if (!track) return;
+
+    const prev  = document.getElementById(prevId);
+    const next  = document.getElementById(nextId);
+    const count = document.getElementById(countId);
+    const items = track.querySelectorAll('.sld-item');
+    const total = items.length;
+
+    if (total === 0) return;
+
+    let idx   = 0;
+    let timer = null;
+
+    // Update transform + counter + buttons
+    function goTo(n) {
+      idx = Math.max(0, Math.min(n, total - 1));
+      track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+      if (count) count.textContent = (idx + 1) + ' / ' + total;
+
+      // Update button states
+      if (prev) prev.disabled = (idx === 0);
+      if (next) next.disabled = (idx === total - 1);
+
+      // Stop autoplay when reaching the last slide
+      if (idx === total - 1 && timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    }
+
+    function resetTimer() {
+      if (!opts || !opts.auto) return;
+      clearInterval(timer);
+      if (idx >= total - 1) return;
+      timer = setInterval(function () { goTo(idx + 1); }, opts.interval || 3000);
+    }
+
+    if (prev) {
+      prev.addEventListener('click', function () {
+        goTo(idx - 1);
+        resetTimer();
+      });
+    }
+    if (next) {
+      next.addEventListener('click', function () {
+        goTo(idx + 1);
+        resetTimer();
+      });
+    }
+
+    // Touch / swipe
+    var startX = 0;
+    track.addEventListener('touchstart', function (e) {
+      startX = e.touches[0].clientX;
+    }, { passive: true });
+    track.addEventListener('touchend', function (e) {
+      var dx = startX - e.changedTouches[0].clientX;
+      if (Math.abs(dx) > 40) {
+        goTo(dx > 0 ? idx + 1 : idx - 1);
+        resetTimer();
+      }
+    }, { passive: true });
+
+    goTo(0);
+    if (opts && opts.auto) resetTimer();
+  }
+
+  /* ────────────────────────────────────────
+     BUILD COOKIE SLIDES (15 images)
+  ──────────────────────────────────────── */
+  (function buildCookieSlides() {
+    var track = document.getElementById('cookieTrack');
+    if (!track) return;
+    var slideCount = 15; // クッキー缶画像の枚数
+    for (var i = 1; i <= slideCount; i++) {
+      var item = document.createElement('div');
+      item.className = 'sld-item';
+      var img = document.createElement('img');
+      img.src     = 'img/クッキー缶' + i + '.webp';
+      img.alt     = 'クッキー缶';
+      img.loading = 'lazy';
+      item.appendChild(img);
+      track.appendChild(item);
+    }
+  })();
+
+  /* ────────────────────────────────────────
+     INIT ALL SLIDERS
+  ──────────────────────────────────────── */
+  // Cookie: auto-slide, 3s, no loop
+  makeSlider('cookieTrack',   'cookiePrev',   'cookieNext',   'cookieCount',
+             { auto: true, interval: 3000, loop: false });
+
+  // Fresh sweets: manual
+  makeSlider('freshTrack',    'freshPrev',    'freshNext',    'freshCount',    {});
+
+  // Crepe: manual
+  makeSlider('crepeTrack',    'crepePrev',    'crepeNext',    'crepeCount',    {});
+
+  // Kakigori: manual
+  makeSlider('kakigoriTrack', 'kakigoriPrev', 'kakigoriNext', 'kakigoriCount', {});
+
+  /* ────────────────────────────────────────
+     SCROLL FADE-IN (Intersection Observer)
+  ──────────────────────────────────────── */
+  var fadeEls = document.querySelectorAll('.fade-in');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  fadeEls.forEach(function (el) { io.observe(el); });
+
+  </script>
+</body>
+</html>
